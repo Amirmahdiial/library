@@ -229,6 +229,7 @@ nav {
   color: white;
   font-family:"rubik", Tahoma, Geneva, Verdana, sans-serif;
   display: none;
+  cursor: pointer;
 }
 .unhidden{
   display: block !important;
@@ -266,6 +267,7 @@ nav {
  #faivor{
   font-size: larger;
   font-family:"rubik", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
 }
 .hidden {
   display: none !important;
