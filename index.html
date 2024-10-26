@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./BOOKS.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="img/bookstore-icon-37376.png" alt="" />
+          <h1>کتابخانه آنلاین</h1>
+        </div>
+        <div class="nav-links">
+          <a href="#about">درباره ما</a>
+          <a href="#categories">دسته بندی ها</a>
+          <a href="#blog">وبلاگ</a>
+          <a href="#contact">ارتباط با ما</a>
+        </div>
+        <div class="main-fav">
+          <div class="favContainer">
+            <a id="faivor" onclick="favkar()">لیست علاقمندی ها</a>
+            <button class="" id="backButton" onclick="renderBooks(BOOKS);">بازگشت به صفحه اصلی</button>
+          </div>
+          <img class="menu" src="img/burger-menu-svgrepo-com.svg" alt="" />
+        </div>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="main__container"></div>
+      
+      <div class="filters">
+        <div id="filterAuthors">
+          <h3>نویسنده ها</h3>
+        </div>
+
+        <div id="filterLangs">
+          <h3>زبان</h3>
+        </div>
+
+        <div id="filterGenre">
+          <h3>ژانر</h3>
+        </div>
+        
+      </div>
+      
+    </div>
+
+  </body>
+</html>
